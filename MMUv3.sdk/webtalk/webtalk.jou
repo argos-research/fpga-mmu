@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# 
+# Start of session at: Tue Jul 11 17:19:01 2017
+# Process ID: 29827
+# Current directory: /home/user/zynq/MMUv3/MMUv3.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/user/zynq/MMUv3/MMUv3.sdk/webtalk/webtalk.log
+# Journal file: /home/user/zynq/MMUv3/MMUv3.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

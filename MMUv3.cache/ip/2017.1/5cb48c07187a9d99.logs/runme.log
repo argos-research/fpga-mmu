@@ -1,0 +1,87 @@
+
+*** Running vivado
+    with args -log design_1_auto_us_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_us_0.tcl
+
+
+****** Vivado v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_auto_us_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1176.430 ; gain = 77.996 ; free physical = 8153 ; free virtual = 27017
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_us_0' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/synth/design_1_auto_us_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_12_top' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/fef9/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14450]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_12_axi_upsizer' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/fef9/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7038]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_12_w_upsizer' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/fef9/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5563]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_12_w_upsizer' (1#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/fef9/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5563]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_12_a_upsizer' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/fef9/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:655]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' (2#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:655]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_12_a_upsizer' (3#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/fef9/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_12_r_upsizer' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/fef9/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:4653]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_12_r_upsizer' (4#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/fef9/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:4653]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axi_register_slice' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (5#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice' (6#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized0' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized0' (6#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized1' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized1' (6#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized2' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized2' (6#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (7#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axi_register_slice' (8#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_12_a_upsizer__parameterized0' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/fef9/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_12_a_upsizer__parameterized0' (8#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/fef9/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axi_register_slice__parameterized0' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (8#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized3' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized3' (8#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized4' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice__parameterized4' (8#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (8#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axi_register_slice__parameterized0' (8#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_12_axi_upsizer' (9#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/fef9/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7038]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_12_top' (10#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ipshared/fef9/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14450]
+INFO: [Synth 8-256] done synthesizing module 'design_1_auto_us_0' (11#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/synth/design_1_auto_us_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:01:28 ; elapsed = 00:01:29 . Memory (MB): peak = 1300.930 ; gain = 202.496 ; free physical = 8243 ; free virtual = 27101
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:28 ; elapsed = 00:01:30 . Memory (MB): peak = 1300.930 ; gain = 202.496 ; free physical = 8374 ; free virtual = 27233
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1543.953 ; gain = 1.000 ; free physical = 7940 ; free virtual = 26798
+Finished Constraint Validation : Time (s): cpu = 00:01:40 ; elapsed = 00:01:42 . Memory (MB): peak = 1543.953 ; gain = 445.520 ; free physical = 7999 ; free virtual = 26857
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:40 ; elapsed = 00:01:42 . Memory (MB): peak = 1543.953 ; gain = 445.520 ; free physical = 7999 ; free virtual = 26857
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:40 ; elapsed = 00:01:42 . Memory (MB): peak = 1543.953 ; gain = 445.520 ; free physical = 8001 ; free virtual = 26859
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:41 ; elapsed = 00:01:44 . Memory (MB): peak = 1543.953 ; gain = 445.520 ; free physical = 7986 ; free virtual = 26843
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:48 ; elapsed = 00:01:50 . Memory (MB): peak = 1543.953 ; gain = 445.520 ; free physical = 7932 ; free virtual = 26790
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:57 ; elapsed = 00:02:00 . Memory (MB): peak = 1543.953 ; gain = 445.520 ; free physical = 8293 ; free virtual = 27152
+Finished Timing Optimization : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1547.953 ; gain = 449.520 ; free physical = 8278 ; free virtual = 27138
+Finished Technology Mapping : Time (s): cpu = 00:01:59 ; elapsed = 00:02:02 . Memory (MB): peak = 1565.977 ; gain = 467.543 ; free physical = 8273 ; free virtual = 27134
+Finished IO Insertion : Time (s): cpu = 00:02:00 ; elapsed = 00:02:02 . Memory (MB): peak = 1565.977 ; gain = 467.543 ; free physical = 8269 ; free virtual = 27130
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:00 ; elapsed = 00:02:02 . Memory (MB): peak = 1565.977 ; gain = 467.543 ; free physical = 8269 ; free virtual = 27130
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:00 ; elapsed = 00:02:03 . Memory (MB): peak = 1565.977 ; gain = 467.543 ; free physical = 8270 ; free virtual = 27130
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:00 ; elapsed = 00:02:03 . Memory (MB): peak = 1565.977 ; gain = 467.543 ; free physical = 8270 ; free virtual = 27130
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:00 ; elapsed = 00:02:03 . Memory (MB): peak = 1565.977 ; gain = 467.543 ; free physical = 8270 ; free virtual = 27130
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:00 ; elapsed = 00:02:03 . Memory (MB): peak = 1565.977 ; gain = 467.543 ; free physical = 8270 ; free virtual = 27130
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |LUT1    |     7|
+|2     |LUT2    |    32|
+|3     |LUT3    |   103|
+|4     |LUT4    |   105|
+|5     |LUT5    |    79|
+|6     |LUT6    |   195|
+|7     |SRLC32E |    56|
+|8     |FDRE    |   581|
+|9     |FDSE    |     4|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:00 ; elapsed = 00:02:03 . Memory (MB): peak = 1565.977 ; gain = 467.543 ; free physical = 8270 ; free virtual = 27130
+synth_design: Time (s): cpu = 00:02:02 ; elapsed = 00:02:04 . Memory (MB): peak = 1565.984 ; gain = 480.137 ; free physical = 8242 ; free virtual = 27102

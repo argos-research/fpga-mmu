@@ -1,0 +1,41 @@
+
+*** Running vivado
+    with args -log design_1_blk_mem_gen_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_blk_mem_gen_0_0.tcl
+
+
+****** Vivado v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_blk_mem_gen_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1166.422 ; gain = 67.996 ; free physical = 8152 ; free virtual = 27026
+INFO: [Synth 8-638] synthesizing module 'design_1_blk_mem_gen_0_0' [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ip/design_1_blk_mem_gen_0_0/synth/design_1_blk_mem_gen_0_0.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'design_1_blk_mem_gen_0_0' (11#1) [/home/user/zynq/MMUv3/MMUv3.srcs/sources_1/bd/design_1/ip/design_1_blk_mem_gen_0_0/synth/design_1_blk_mem_gen_0_0.vhd:78]
+Finished RTL Elaboration : Time (s): cpu = 00:01:29 ; elapsed = 00:01:30 . Memory (MB): peak = 1368.594 ; gain = 270.168 ; free physical = 8150 ; free virtual = 27027
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:29 ; elapsed = 00:01:30 . Memory (MB): peak = 1368.594 ; gain = 270.168 ; free physical = 8164 ; free virtual = 27040
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1524.617 ; gain = 0.000 ; free physical = 7863 ; free virtual = 26738
+Finished Constraint Validation : Time (s): cpu = 00:01:41 ; elapsed = 00:01:42 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7952 ; free virtual = 26827
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:41 ; elapsed = 00:01:42 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7952 ; free virtual = 26827
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:41 ; elapsed = 00:01:42 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7953 ; free virtual = 26828
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:42 ; elapsed = 00:01:44 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7937 ; free virtual = 26812
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:43 ; elapsed = 00:01:44 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7927 ; free virtual = 26802
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:51 ; elapsed = 00:01:53 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7735 ; free virtual = 26611
+Finished Timing Optimization : Time (s): cpu = 00:01:52 ; elapsed = 00:01:53 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7734 ; free virtual = 26610
+Finished Technology Mapping : Time (s): cpu = 00:01:52 ; elapsed = 00:01:53 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7732 ; free virtual = 26608
+Finished IO Insertion : Time (s): cpu = 00:01:52 ; elapsed = 00:01:54 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7730 ; free virtual = 26606
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:52 ; elapsed = 00:01:54 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7729 ; free virtual = 26606
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:52 ; elapsed = 00:01:54 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7726 ; free virtual = 26603
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:52 ; elapsed = 00:01:54 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7726 ; free virtual = 26602
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:52 ; elapsed = 00:01:54 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7723 ; free virtual = 26600
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:52 ; elapsed = 00:01:54 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7722 ; free virtual = 26599
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |RAMB36E1 |    32|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:52 ; elapsed = 00:01:54 . Memory (MB): peak = 1524.617 ; gain = 426.191 ; free physical = 7721 ; free virtual = 26598
+synth_design: Time (s): cpu = 00:01:54 ; elapsed = 00:01:55 . Memory (MB): peak = 1524.625 ; gain = 438.785 ; free physical = 8356 ; free virtual = 27233
